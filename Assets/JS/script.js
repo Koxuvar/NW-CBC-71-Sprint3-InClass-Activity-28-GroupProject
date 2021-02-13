@@ -155,8 +155,11 @@ playButton.addEventListener("click", e => {
         docCpuScore.textContent = computer.cpuScore;
         docPlayerScore.textContent = player.playerScore;
 
+        player.playerPickedLetter = false;
+        player.playersMove = "";
 
-
+        computer.cpuPickedLetter = false;
+        computer.cpuMove = "";
     }
 
     
