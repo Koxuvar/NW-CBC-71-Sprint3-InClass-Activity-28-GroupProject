@@ -1,4 +1,6 @@
 let playButton = document.getElementById("goButton");
+let cpuScore = document.getElementById("cpuScore");
+let playerScore = document.getElementById("playerScore");
 
 
 
@@ -52,5 +54,5 @@ let playButton = document.getElementById("goButton");
 
 
 playButton.addEventListener("click", e => {
-    console.log("Clicked");
+    //do stuff here
 });
